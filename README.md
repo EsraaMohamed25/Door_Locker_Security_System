@@ -13,10 +13,10 @@
 1. The user create password by entering from HMI-ECU two times and send data byte by byte to Control-ECU by UART to check them if matched then store password in EEPROM, otherwise ECU will asking user to re-enter password again two times till it matched.
 2. Go to Home Screen wich display 2 main options to user:
 ```
-- '+': Open Door 
-- '-': Change Password
-in both cases it will ask the user to enter the password then send password to Control-ECU by UART to get current password from EEPROM to match it with entered password from user.
+ '+': Open Door 
+ '-': Change Password
 ```
+in both cases it will ask the user to enter the password then send password to Control-ECU by UART to get current password from EEPROM to match it with entered password from user.
 3. Open Door Option:
   - If matched: Turn DC motor On to rotate Clock_wise for 15 Sec (as door is opening) then   hold the motor for 3-seconds then DC motor rotate Anti-ClockWise for 15 Sec (as door is closing).
   - If the two passwords are not matched for 3 consecutive times, then:
