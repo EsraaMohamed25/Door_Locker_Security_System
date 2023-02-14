@@ -18,14 +18,14 @@ in both cases it will ask the user to enter the password then send password to C
 3. Open Door Option:
   - If matched: Turn DC motor On to rotate Clock_wise for 15 Sec (as door is opening) then   hold the motor for 3-seconds then DC motor rotate Anti-ClockWise for 15 Sec (as door is closing).
   - If the two passwords are not matched for 3 consecutive times, then:
-      • Activate Buzzer for 1-minute (alarm).
-      • Display error message on LCD for 1 minute.
-      • System should be locked no inputs from Keypad will be accepted during this period.
-      • Go to Step 2 the main options again.
+      - Activate Buzzer for 1-minute (alarm).
+      - Display error message on LCD for 1 minute.
+      - System should be locked no inputs from Keypad will be accepted during this period.
+      - Go to Step 2 the main options again.
 4. Change password Option:
   - If matched: Go to Step 1 (enter the pass twice)
   - If the two passwords are not matched for 3 consecutive times, then:
       - Activate Buzzer for 1-minute (alarm).
       + Display error message on LCD for 1 minute.
       * System should be locked no inputs from Keypad will be accepted during this period.
-      • Go to Step 2 the main options again
+      - Go to Step 2 the main options again.
