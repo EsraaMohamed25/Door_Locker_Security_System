@@ -25,7 +25,7 @@ in both cases it will ask the user to enter the password then send password to C
 4. Change password Option:
   - If matched: Go to Step 1 (enter the pass twice)
   - If the two passwords are not matched for 3 consecutive times, then:
-      • Activate Buzzer for 1-minute (alarm).
-      • Display error message on LCD for 1 minute.
-      • System should be locked no inputs from Keypad will be accepted during this period.
+      - Activate Buzzer for 1-minute (alarm).
+      + Display error message on LCD for 1 minute.
+      * System should be locked no inputs from Keypad will be accepted during this period.
       • Go to Step 2 the main options again
