@@ -7,7 +7,7 @@
 ## Desciption :
 ##### The System consists of 2 ECU’s: 
    - The first ECU called HMI is responsible for interactioning with the user by taking inputs through keypad and display messages on the LCD. 
-   - The second ECU called control ECU which is responsible for all the processing and decisions in the system like password checking, open the door and activate the system alarm. In the project I implemented the following drivers Keypad, LCD, DC Motor, UART, Timer, I2C and External EEPROM.
+   - The second ECU called control ECU which is responsible for all the processing and decisions in the system like password checking, open the door and activate the system alarm.
 
 ## Door Locker System Sequence:
 1. The user create password by entering from HMI-ECU two times and send data byte by byte to Control-ECU by UART to check them if matched then store password in EEPROM, otherwise ECU will asking user to re-enter password again two times till it matched.
