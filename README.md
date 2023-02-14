@@ -17,6 +17,7 @@
  '-': Change Password
 ```
 in both cases it will ask the user to enter the password then send password to Control-ECU by UART to get current password from EEPROM to match it with entered password from user.
+
 3. Open Door Option:
   - If matched: Turn DC motor On to rotate Clock_wise for 15 Sec (as door is opening) then   hold the motor for 3-seconds then DC motor rotate Anti-ClockWise for 15 Sec (as door is closing).
   - If the two passwords are not matched for 3 consecutive times, then:
